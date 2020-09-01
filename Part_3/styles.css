@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+nav{
+    color: rgb(247, 45, 18);
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#myForm{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#navHeader{
+    font-family: 'Lemonada', cursive;
+}
+
+article{
+    width: 55%;
+    text-align: center;
+}
+
+#main_header{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+
+form input{
+    width: 37%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(88, 235, 125);
+}
+
+#myBtn{
+    margin-left: 1%;
+    width: 15%;
+}
+
+section{
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+section div{
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    border: 1px solid rgb(159, 211, 245);
+    box-shadow: rgb(159, 211, 245) 1px 1px 1px;
+}
+
+.checker{
+    margin-top: 5px;
+}
+
+.itemStroke{
+    text-decoration: line-through;
+}
+
+.items{
+    color: rgb(9, 61, 95);
+}
+
+.deleteCol{
+    position: relative;
+    left: 50%;
+}
+
+.ratingCol{
+    position: relative;
+    left: 70%;
+}
+
+table{
+    width: 100%;
+}
+
+tr th:first-child{
+    text-align: center;
+    padding: 10px 2px;
+    border-top: 1px solid rgb(37, 211, 95);
+    border-bottom: 1px solid rgb(37, 211, 95);
+    border-radius: 10px;
+}
+
+tr th:nth-child(2){
+    width: 20%;
+    text-align: center;
+    padding: 10px 2px;
+    border-top: 1px solid rgb(37, 211, 95);
+    border-bottom: 1px solid rgb(37, 211, 95);
+    border-radius: 2px;
+}
+
+tr th:last-child{
+    width: 20%;
+    text-align: center;
+    padding: 10px 2px;
+    border-top: 1px solid rgb(37, 211, 95);
+    border-bottom: 1px solid rgb(37, 211, 95);
+    border-radius: 2px;
+}
+
+tr td:first-child{
+    text-align: center;
+    padding: 10px 2px;
+}
+
+tr td:nth-child(2){
+    width: 20%;
+    text-align: center;
+    padding: 10px 2px;
+}
+
+tr td:last-child{
+    width: 20%;
+    text-align: center;
+    padding: 10px 2px;
+}

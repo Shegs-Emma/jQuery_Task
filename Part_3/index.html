@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>EmmyM_ighty ToDo App (Juery Version)</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Lora&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <h5 id="navHeader">Movie Rating App</h5>
+        </nav>
+
+        <div id="container">
+            <header>
+                <h3 class="text-success" id="main_header">My Favourite Movies</h3>
+            </header>
+            <article>
+                <form id="myForm">
+                    <input type="text" name="title" placeholder="Movie Title" id="title" />
+
+                    <input type="number" name="rating" placeholder="Rate the movie between 0 and 10" id="rating" />
+
+                    <button type="submit" class="btn btn-success" id="myBtn">Add Movie</button>
+                </form>
+            </article>
+            <section>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th data-column="movieTitle" data-order="desc" class="myCols text-success">Title &#9660</th>
+                            <th data-column="movieRating" data-order="desc" class="myCols text-success">Rating &#9660</th>
+                            <th class="text-success"> Delete </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+                            <td class="titleItems">Avenger Endgame All day Every Day</td>
+                            <td>6</td>
+                            <td><button type="button" class="btn btn-danger delete">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="titleItems">Jacob</td>
+                            <td>8</td>
+                            <td><button type="button" class="btn btn-danger delete">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td class="titleItems">Jacob</td>
+                            <td>8</td>
+                            <td><button type="button" class="btn btn-danger delete">Delete</button></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        
+        <script src="jquery.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
